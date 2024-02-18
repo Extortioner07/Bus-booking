@@ -190,8 +190,114 @@
           </div>
         </section>
         <!-- seats -->
-        <section>
-
+        <section class="flex flex-col lg:flex-row lg:justify-center">
+          <div class=" lg:border-r-2 lg:w-[60%] border-dashed p-5 space-y-3">
+            <h3 class="text-2xl font-semibold">Select Your Seat</h3>
+            <hr class="border-dashed">
+            <div class="flex justify-between">
+              <p><img src="images/seat-gray.png" alt=""> Available</p>
+              <p><img src="images/seat-green-filled.png" alt=""> Selected</p>
+            </div>
+            <hr class="border-dashed">
+            <div class="flex justify-end">
+              <img class="" src="images/Vector.png" alt="">
+            </div>
+            <!-- pair of seats -->
+            <div class="flex pt-24 justify-center gap-9">
+              <!-- col 1 -->
+              <div class="grid grid-cols-1 gap-4">
+                <div class="flex gap-6">
+                  <button class="btn lg:w-40">A1</button>
+                  <button class="btn lg:w-40">A2</button>
+                </div>
+                <div class="flex gap-6">
+                  <button class="btn lg:w-40">B1</button>
+                  <button class="btn lg:w-40">B2</button>
+                </div>
+                <div class="flex gap-6">
+                  <button class="btn lg:w-40">C1</button>
+                  <button class="btn lg:w-40">C2</button>
+                </div>
+                <div class="flex gap-6">
+                  <button class="btn lg:w-40">D1</button>
+                  <button class="btn lg:w-40">D2</button>
+                </div>
+                <div class="flex gap-6">
+                  <button class="btn lg:w-40">E1</button>
+                  <button class="btn lg:w-40">E2</button>
+                </div>
+              </div>
+              <!-- col-2 -->
+              <div class="grid grid-cols-1 gap-4">
+                <div class="flex gap-6">
+                  <button class="btn lg:w-40">A3</button>
+                  <button class="btn lg:w-40">A4</button>
+                </div>
+                <div class="flex gap-6">
+                  <button class="btn lg:w-40">B3</button>
+                  <button class="btn lg:w-40">B4</button>
+                </div>
+                <div class="flex gap-6">
+                  <button class="btn lg:w-40">C3</button>
+                  <button class="btn lg:w-40">C4</button>
+                </div>
+                <div class="flex gap-6">
+                  <button class="btn lg:w-40">D3</button>
+                  <button class="btn lg:w-40">D4</button>
+                </div>
+                <div class="flex gap-6">
+                  <button class="btn lg:w-40">E3</button>
+                  <button class="btn lg:w-40">E4</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- registration field -->
+          <div class="lg:pr-56 p-1 lg:pl-6 space-y-2">
+            <h4 class="text-2xl pl-3 font-semibold">Selected Seats</h4>
+            <!-- price details -->
+            <div class="bg-[#F7F8F8] rounded-2xl py-5 px-3 space-y-4">
+              <div>
+                <div class="flex justify-evenly">
+                  <p class="text-base font-semibold">Seat</p>
+                  <p class="text-base font-semibold">Class</p>
+                  <p class="text-base font-semibold">Price</p>
+                </div>
+                <hr class="border-dashed">
+                <div class="flex justify-evenly mt-2">
+                  <p>C2</p>
+                  <p>economy</p>
+                  <p>550</p>
+                </div>
+              </div>
+              <hr class="mt-2">
+              <div class="flex justify-evenly gap-9">
+                <p class="text-base font-semibold">Total Price</p>
+                <p class="text-base font-semibold">BDT <span>550</span></p>
+              </div>
+              <div class="flex boder rounded-xl bg-white p-1">
+                <input type="text" placeholder="Have any coupon?" class="input rounded-r-none border-none w-full max-w-xs" />
+                <button class="btn bg-[#1DD100]">Apply</button>
+              </div>
+              <div class="flex justify-evenly">
+                <p class="text-base font-semibold">Grand Total</p>
+                <p class="text-base font-semibold">BDT <span>550</span></p>
+              </div>
+            </div>
+            <div class="space-y-3 pl-2 mt-3">
+              <label for="name" class="text-xl font-semibold">Passenger Names*</label><br>
+              <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full max-w-xs" />
+              <label for="name" class="text-xl font-semibold">Phone Number*</label><br>
+              <input type="text" placeholder="Enter YOur Phone Number" class="input input-bordered w-full max-w-xs" /><br>
+              <label for="name" class="text-xl font-semibold">Email ID</label><br>
+              <input type="text" placeholder="Enter Your Email ID" class="input input-bordered w-full max-w-xs" />
+            </div>
+            <button class="btn mt-2 w-full bg-[#1DD100]">Next</button>
+            <div class="mt-2 flex justify-around">
+              <a class="link">Terms and Conditions</a>
+              <a class="link">Cancellation Policy</a>
+            </div>
+          </div>
         </section>
     </main>
     <script src=""></script>
