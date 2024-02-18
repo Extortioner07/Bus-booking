@@ -44,15 +44,15 @@
     <!-- main -->
     <main class="container m-auto">
         <!-- banner section -->
-        <section class="bg-[url(images/banner.png)] mt-5 lg:h-[850px] bg-cover bg-center">
+        <section class="bg-[url(images/banner.png)] container mt-5 lg:h-[850px] bg-cover bg-center">
             <div class="pt-2">
 
              <div class="text-center lg:pt-52 lg:space-y-10">
-              <h1 class="text-white lg:text-7xl font-extrabold">
+              <h1 class="text-white lg:text-7xl text-2xl font-extrabold">
                 End-to-End Travel with
                 <br><span class=" text-[#1DD100]">Sonic Paribahan</span>
               </h1>
-              <p class="text-white">In case you have reserved a   ticket thorugh bKash and want to confirm your bKash transaction <br> ID
+              <p class="text-white text-base">In case you have reserved a   ticket thorugh bKash and want to confirm your bKash transaction <br> ID
                 to get your confirmed ticket, please enter your Reservation Reference ID.</p>
                 <button class="btn bg-[#1DD100] btn-xs sm:btn-sm md:btn-md lg:btn-lg">Buy Tickets</button>
                 <!-- details section -->
@@ -91,36 +91,107 @@
         </section>
 
         <!-- discount Section -->
-        <section class="lg:mt-28">
-          <h1 class="text-5xl font-bold  text-center">Best offers for you</h1>
-          <div class="flex flex-col lg:flex-row mt-6 gap-5 justify-center">
+        <section class="lg:mt-28 mt-3 container">
+          <h1 class="lg:text-5xl text-3xl font-bold  text-center">Best offers for you</h1>
+          <div class="flex flex-col lg:flex-row mt-4 lg:mt-6 gap-5 justify-center">
             <div class="flex bg-[#FFBF0F] w-full justify-center lg:gap-16 font-inter">
               <div class="lg:py-3 pr-5 lg:px-3 lg:pr-64">
-                <h4 class="lg:text-4xl text-xl font-bold">15% OFF</h4>
+                <h4 class="lg:text-4xl text-2xl font-bold">15% OFF</h4>
                 <p>
                   on your next purchase <br>
                   use by January 2024
                 </p>
               </div>
               <div class="border-l-[2px] border-dashed lg:pt-7 py-3 px-4 pl-10">
-                <h4 class="lg:text-2xl text-xl font-bold">New<sub>15</sub></h4>
+                <h4 class="lg:text-3xl text-2xl font-bold">New<sub>15</sub></h4>
                 <p>Coupon Code</p>
               </div>
             </div>
             <div class="flex bg-[#F78C9C] w-full justify-center lg:gap-16 font-inter">
               <div class="lg:py-3 pr-5 lg:px-3 lg:pr-64">
-                <h4 class="lg:text-4xl text-xl font-bold">20% OFF</h4>
+                <h4 class="lg:text-4xl text-2xl font-bold">20% OFF</h4>
                 <p>
                   on your next purchase <br>
                   use by January 2024
                 </p>
               </div>
-              <div class="border-l-[2px] border-dashed pt-7 py-3 px-4 pl-10">
-                <h4 class="lg:text-2xl text-xl font-bold">Couple<sub>20</sub></h4>
+              <div class="border-l-[2px] border-dashed pt-2 py-3 px-4 pl-10">
+                <h4 class="lg:text-3xl text-2xl font-bold">Couple<sub>20</sub></h4>
                 <p>Coupon Code</p>
               </div>
             </div>
           </div>
+          <div class="text-center lg:mt-8">
+            <button class="btn mt-2 border-[#1DD100] bg-white text-[#1DD100]">See All Offers</button>
+          </div>
+        </section>
+
+        <!-- Ticket Booking Center -->
+        <section class="container m-auto mt-5 border-t-2 rounded-3xl lg:rounded-t-[100px] border-t-[#1DD100]">
+          <!-- intro -->
+          <div class="text-center space-y-4 mt-4">
+            <h2 class="text-4xl font-bold">P.H Paribahan</h2>
+            <p>In case you have reserved a ticket thorugh bKash and want to confirm your bKash transaction
+            <br>  ID to get your confirmed ticket, please enter your Reservation Reference ID.</p>
+          </div>
+
+          <!-- ticket price -->
+          <div class="flex flex-col lg:flex-row justify-evenly mt-16">
+            
+            <!-- route -->
+            <div class="">
+              <div class="flex justify-between">
+                <!--  -->
+                <div class="flex justify-between lg:px-14">
+                  <div class="flex gap-2">
+                    <img class="" src="images/bus-logo.png" alt="">
+                  <div>
+                    <h4 class="lg:text-3xl text-xl font-bold">Sonic Paribahan</h4>
+                    <p>Coach-009-WEB ! AC_Business</p>
+                  </div>
+                  </div>  
+                </div>
+                <div class="flex gap-2 rounded-3xl items-center w-36 bg-[#1cd1002c] pl-3">
+                  <img class="w-5" src="images/seat-green.png" alt="">
+                  <p class="lg:w-32 text-[#1DD100] font-semibold"><span>40 </span>Seats left</p>
+                </div>
+              </div>
+
+              <div class="flex justify-evenly rounded-3xl">
+                <div class="px-10 mt-4 lg:w-[900px] rounded-3xl bg-[#F7F8F8] py-9">
+                  <div class="flex justify-between gap-3">
+                    <p>Route</p>
+                    <p>Dhaka - Sylhet</p>
+                  </div>
+                  <br>
+                  <hr class="border-dashed">
+                  <div class="flex justify-between gap-3">
+                    <p>Departure Time</p>
+                    <p>9:00 PM</p>
+                  </div>
+                  <br>
+                  <hr class="border-dashed">
+                  <!-- est time -->
+                  <div class="text-center space-y-5 mt-5">
+                    <button class="btn">Boarding Point - Laxmipur</button>
+                    <button class="btn"> Dropping Point - Bogura</button>
+                    <button class="btn"> Est. Time - 11 Hours</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:border-l-[2px] lg:border-dashed lg:border-l-[#1DD100] flex lg:flex-col items-center justify-center lg:pl-32 lg:bg-white bg-lime-100">
+              <img src="images/fare.png" alt="">
+              <div class="text-center">
+                <p><span class="text-2xl font-bold">500 Taka</span><br> Per Seat</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- seats -->
+        <section>
+
         </section>
     </main>
     <script src=""></script>
