@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sonic Paribahan</title>
+    <link rel="shortcut icon" href="images/stoppage.png" type="image/x-icon">
     <!-- css link -->
     <link rel="stylesheet" href="style/styles.css">
     <!-- tailwind css -->
@@ -93,7 +94,7 @@
         <!-- discount Section -->
         <section class="lg:mt-28 mt-3 container">
           <h1 class="lg:text-5xl text-3xl font-bold  text-center">Best offers for you</h1>
-          <div class="flex flex-col lg:flex-row mt-4 lg:mt-6 gap-5 justify-center">
+          <div class="flex flex-col lg:flex-row mt-3 lg:mt-16 gap-5 justify-center">
             <div class="flex bg-[#FFBF0F] w-full justify-center lg:gap-16 font-inter">
               <div class="lg:py-3 pr-5 lg:px-3 lg:pr-64">
                 <h4 class="lg:text-4xl text-2xl font-bold">15% OFF</h4>
@@ -127,10 +128,10 @@
         </section>
 
         <!-- Ticket Booking Center -->
-        <section class="container m-auto mt-5 border-t-2 rounded-3xl lg:rounded-t-[100px] border-t-[#1DD100]">
+        <section class="container m-auto lg:mt-28 border-b-2 lg:pb-10 border-t-2 rounded-3xl lg:rounded-t-[100px] border-t-[#1DD100] lg:rounded-b-[100px] border-b-[#1DD100] pb-3">
           <!-- intro -->
-          <div class="text-center space-y-4 mt-4">
-            <h2 class="text-4xl font-bold">P.H Paribahan</h2>
+          <div class="text-center space-y-4 mt-10">
+            <h2 class="text-5xl font-bold">Sonic Paribahan</h2>
             <p>In case you have reserved a ticket thorugh bKash and want to confirm your bKash transaction
             <br>  ID to get your confirmed ticket, please enter your Reservation Reference ID.</p>
           </div>
@@ -181,7 +182,7 @@
               </div>
             </div>
 
-            <div class="lg:border-l-[2px] lg:border-dashed lg:border-l-[#1DD100] flex lg:flex-col items-center justify-center lg:pl-32 lg:bg-white bg-lime-100">
+            <div class="lg:border-l-[2px] lg:border-dashed lg:border-l-[#1DD100] flex lg:flex-col items-center lg:pt-20 lg:pl-32 lg:bg-white bg-lime-100">
               <img src="images/fare.png" alt="">
               <div class="text-center">
                 <p><span class="text-2xl font-bold">500 Taka</span><br> Per Seat</p>
@@ -190,7 +191,7 @@
           </div>
         </section>
         <!-- seats -->
-        <section class="flex flex-col lg:flex-row lg:justify-center">
+        <section class="flex mt-3 flex-col border border-[#c9c9c9] rounded-3xl lg:mt-14 lg:flex-row lg:justify-center lg:py-6">
           <div class=" lg:border-r-2 lg:w-[60%] border-dashed p-5 space-y-3">
             <h3 class="text-2xl font-semibold">Select Your Seat</h3>
             <hr class="border-dashed">
@@ -200,7 +201,7 @@
             </div>
             <hr class="border-dashed">
             <div class="flex justify-end">
-              <img class="pr-9 lg:pr-36 pt-24"  src="images/Vector.png" alt="">
+              <img class="pr-9 lg:pr-36 lg:pt-24"  src="images/Vector.png" alt="">
             </div>
             <!-- pair of seats -->
             <div class="flex lg:pt-2 justify-center gap-9">
@@ -253,7 +254,7 @@
             </div>
           </div>
           <!-- registration field -->
-          <div class="lg:pr-56 p-1 lg:pl-6 space-y-2">
+          <div class="lg:pr-44 p-1 lg:pl-6 space-y-2">
             <h4 class="text-2xl pl-3 font-semibold">Selected Seats</h4>
             <!-- price details -->
             <div class="bg-[#F7F8F8] rounded-2xl py-5 px-3 space-y-4">
@@ -300,6 +301,32 @@
           </div>
         </section>
     </main>
+    <!-- footer -->
+    <footer class=" container mt-20 mx-auto p-10 bg-[#030712] text-neutral-content">
+      <div class="flex lg:flex-row flex-col space-y-4 justify-evenly">
+        <aside>
+          <h2 class="text-3xl font-semibold">SONIC-Tickets.</h2>
+          <p class="lg:text-base text-[13px] text-[#e9e9e9ad]">P-Ticket is a digital platform to make your <br> daily commuting better</p>
+        </aside> 
+        <nav>
+          <h6 class="footer-title text-2xl">Download Our App</h6> 
+          <div class="flex lg:w-full w-40 gap-2 border p-1 rounded-lg">
+            <img src="images/playstore.png" alt="">
+            <p class="text-xs">GET IT ON <br>
+            <span class="text-lg">Google Play</span></p>
+          </div>
+        </nav>
+      </div>
+      <hr class="border-dashed my-12">
+      <div class="flex flex-col lg:flex-row space-y-3 justify-evenly">
+        <p class="lg:text-base text-[#e9e9e9ad] text-[12px]">@all rights reserved, P-Ticket services limited.2024</p>
+        <div class="flex gap-5">
+          <p>Terms & Conditions</p>
+          <p>Return & Refund Policy</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+    </footer>
     <script src=""></script>
 </body>
 </html>
